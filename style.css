@@ -197,6 +197,23 @@ footer {
   }
 }
 
+.espaço{
+  position: absolute;
+  animation: position 4s linear ;
+}
+
+@keyframes position{
+  0%{
+    top: 100%;
+    left: 20%;
+  }
+
+  35%{
+    top: 100%;
+    left: calc(20% - 90px)
+  }
+}
+
 .Sobre_Mim{
   width: 100%;
   max-width: 100%;
@@ -222,3 +239,12 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+.foto{
+  position: absolute;
+  top: 100%;
+  left: 20%;
+}
+
+
+
