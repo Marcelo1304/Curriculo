@@ -199,18 +199,18 @@ footer {
 
 .espaço{
   position: absolute;
-  animation: position 4s linear ;
+  animation: position 9s linear ;
 }
 
 @keyframes position{
-  0%{
-    top: 100%;
-    left: 20%;
+  from{
+    top: 100px 100px 100px 100px;
+    left: 80%;
   }
 
-  35%{
-    top: 100%;
-    left: calc(20% - 90px)
+  to{
+    top: 100px 100px;
+    left: 20px;
   }
 }
 
@@ -240,11 +240,19 @@ footer {
   text-align: center;
 }
 
-.foto{
-  position: absolute;
+.foto {
+  width: 150px;
+  height: 150px;
+  position: relative;
   top: 100%;
   left: 20%;
 }
 
+.foto img{
+  width: 207px;
+  height: 368px;
+  position: relative;
+  top: -160px;
+}
 
 
